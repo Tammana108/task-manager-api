@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
    "engines":{
-    "node":"1.16.3",
-    "npm":"6.9.0"
+    "node":"^1.16.3",
+    "npm":"^6.9.0"
   },
   "scripts": {
     "dev": "env-cmd ./config/dev.env nodemon src/index.js",
