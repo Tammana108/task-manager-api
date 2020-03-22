@@ -18,7 +18,7 @@ const bcrypt = require('bcryptjs')
   },
   completed:{
        type:Boolean,
-       required:true
+        default:"false"
   },
   owner:{
       type:mongoose.Schema.Types.ObjectId,
